@@ -3,6 +3,10 @@ import "./index.css";
 import logo from "./images/logo.svg";
 import feature5 from "./images/feature-icon-05.svg";
 import feature4 from "./images/feature-icon-04.svg";
+import profile from "./images/undraw_profile_image.svg";
+import update from "./images/undraw_Updates.svg";
+import Loader from "./loader"
+
 
 const App = () => {
   return (
@@ -43,8 +47,8 @@ const App = () => {
                   {/* <a class="button" href="#">Get in touch</a> */}
                 </div>
               </div>
-              <div class="hero-figure anime-element">
-                <svg
+              {/* <div class="hero-figure anime-element"> */}
+                {/* <svg
                   class="placeholder"
                   width="528"
                   height="396"
@@ -55,8 +59,8 @@ const App = () => {
                     height="396"
                     style={{ fill: "transparent" }}
                   />
-                </svg>
-                <div
+                </svg> */}
+                {/* <div
                   class="hero-figure-box hero-figure-box-01"
                   data-rotation="45deg"
                 ></div>
@@ -86,8 +90,9 @@ const App = () => {
                 <div
                   class="hero-figure-box hero-figure-box-10"
                   data-rotation="-50deg"
-                ></div>
-              </div>
+                ></div> */}
+                <Loader />
+              {/* </div> */}
             </div>
           </div>
         </section>
@@ -144,7 +149,7 @@ const App = () => {
                 <div class="feature text-center is-revealing">
                   <div class="feature-inner">
                     <div class="feature-icon">
-                      <img src={feature5} alt="Feature 05" />
+                      <img src={update} alt="Feature 05" />
                     </div>
                     {/* <!-- <h4 class="feature-title mt-24">Detect</h4> --> */}
                     <p class="text-sm mb-0">
@@ -157,7 +162,7 @@ const App = () => {
                 <div class="feature text-center is-revealing">
                   <div class="feature-inner">
                     <div class="feature-icon">
-                      <img src={feature4} alt="Feature 04" />
+                      <img src={profile} alt="Feature 04" />
                     </div>
                     {/* <!--  <h4 class="feature-title mt-24">Confront</h4> --> */}
                     <p class="text-sm mb-0">
