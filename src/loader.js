@@ -11,7 +11,7 @@ const Pyramids = () => {
     const [model, setModel] = useState();
 
   useEffect(() => {
-    new GLTFLoader().load("/Bruh.gltf", setModel);
+    new GLTFLoader().load("/Neutral.gltf", setModel);
   }, []);
 
   return model ? <primitive object={model.scene} /> : null;
@@ -26,7 +26,7 @@ const Controls = () => {
     });
   
     return (
-      <orbitControls args={[camera, gl.domElement]} ref={orbitRef} />
+      <orbitControls autoRotate args={[camera, gl.domElement]} ref={orbitRef} />
     );
   };
   
@@ -39,7 +39,7 @@ const Controls = () => {
       <>
         {isBrowser && (
           <Canvas
-            camera={{ position: [0, 10, 25], fov: 50 }}
+            camera={{ position: [0,2 , 10], fov: 40 }}
             onCreated={({ gl }) => {
               gl.shadowMap.enabled = true;
               gl.shadowMap.type = THREE.PCFSoftShadowMap;
