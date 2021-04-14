@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Caio-1/static/css/main.29fbcc2a.chunk.css",
+    "main.js": "/Caio-1/static/js/main.4b18b8cf.chunk.js",
+    "main.js.map": "/Caio-1/static/js/main.4b18b8cf.chunk.js.map",
+    "runtime-main.js": "/Caio-1/static/js/runtime-main.cfe6a6ff.js",
+    "runtime-main.js.map": "/Caio-1/static/js/runtime-main.cfe6a6ff.js.map",
+    "static/js/2.4ac3922c.chunk.js": "/Caio-1/static/js/2.4ac3922c.chunk.js",
+    "static/js/2.4ac3922c.chunk.js.map": "/Caio-1/static/js/2.4ac3922c.chunk.js.map",
+    "index.html": "/Caio-1/index.html",
+    "static/css/main.29fbcc2a.chunk.css.map": "/Caio-1/static/css/main.29fbcc2a.chunk.css.map",
+    "static/js/2.4ac3922c.chunk.js.LICENSE.txt": "/Caio-1/static/js/2.4ac3922c.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Caio-1/static/media/pricing-illustration.9ed4fdab.svg",
+    "static/media/feature-icon-04.16c647da.svg": "/Caio-1/static/media/feature-icon-04.16c647da.svg",
+    "static/media/feature-icon-05.969b428e.svg": "/Caio-1/static/media/feature-icon-05.969b428e.svg",
+    "static/media/logo.2198bbbe.svg": "/Caio-1/static/media/logo.2198bbbe.svg",
+    "static/media/undraw_Updates.2ab34d31.svg": "/Caio-1/static/media/undraw_Updates.2ab34d31.svg",
+    "static/media/undraw_profile_image.247ef843.svg": "/Caio-1/static/media/undraw_profile_image.247ef843.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cfe6a6ff.js",
+    "static/js/2.4ac3922c.chunk.js",
+    "static/css/main.29fbcc2a.chunk.css",
+    "static/js/main.4b18b8cf.chunk.js"
+  ]
+}
